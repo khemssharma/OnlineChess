@@ -105,3 +105,8 @@ Overall, the back-end of ChessImprover is designed to provide a robust and scala
 for an education platform, with a focus on security, reliability, and ease of use. By using the
 right frameworks, libraries, and tools, we can ensure that the platform functions smoothly
 and provides an optimal user experience for all its users.
+
+### Real-time communication
+
+Start Game : `{"type":"init_game"}`
+Make a Move : `{"type":"move", "move":{"from":"e2", "to":"e4"}}`
