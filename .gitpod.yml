@@ -5,6 +5,6 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: npm install && npm run build && cd ws && npm install && tsc build && node dist/index.js
+  - init: npm install && npm run build
     command: npm run start
     
